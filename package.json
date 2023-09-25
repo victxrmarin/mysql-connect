@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "mariadb": "^3.2.0",
+    "mysql2": "^3.5.1",
+    "readline-sync": "^1.4.10",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/readline-sync": "^1.4.4"
+  },
+  "name": "data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
